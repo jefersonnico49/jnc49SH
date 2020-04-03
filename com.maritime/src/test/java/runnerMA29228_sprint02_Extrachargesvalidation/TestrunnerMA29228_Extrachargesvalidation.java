@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		plugin = {"pretty", "html:Gherkin29228_SPRINT02_addExtraChargestoperson_functionalityvalidation/cucumber-html-report","json:Gherkin29228_SPRINT02_addExtraChargestoperson_functionalityvalidation/cucumber-report.json","junit:Gherkin29228_SPRINT02_addExtraChargestoperson_functionalityvalidation/cucumber.xml"}
 		)
 
-//test//
+//test1// 
 
 public class TestrunnerMA29228_Extrachargesvalidation {
 
