@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="175.708858">
+<testcase classname="Meals and Accommodation Add Extra Charges functionality for Vessel Manager" name="Add valid description and Price - Add Extra Charge" time="72.609646">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials.................passed
+Then go to Personnel menu...................................................passed
+Then access Meals and Accommodation sub menu................................passed
+Then validate if the current url is correct.................................passed
+Then input valid date range period and click on submit button...............passed
+Then click on Include Persons on the Report.................................passed
+Then click on a specific personnel..........................................passed
+Then click on the positive icon to Add Extra charges........................passed
+Then input a description - Extra charge first line..........................passed
+Then input Price - Extra charge first line..................................passed
+Then click Add another item button five times...............................passed
+Then input a description - Extra charge second line.........................passed
+Then input Price - Extra charge second line.................................passed
+Then input a description - Extra charge third line..........................passed
+Then input Price - Extra charge third line..................................passed
+Then input a description - Extra charge fourth line.........................passed
+Then input Price - Extra charge fourth line.................................passed
+Then input a description - Extra charge fifth line..........................passed
+Then input Price - Extra charge fifth line..................................passed
+Then click on Save Changes button...........................................passed
+Then validate if the confirmation message for successfully saving the Extra charges will display.passed
+And browser will close......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Meals and Accommodation Add Extra Charges functionality for Vessel Manager" name="Add invalid description and Price - Add Extra Charge" time="66.012263">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials - for the second time.passed
+Then go to Personnel menu - for the second time.............................passed
+Then access Meals and Accommodation sub menu - for the second time..........passed
+Then validate if the current url is correct - for the second time...........passed
+Then input valid date range period and click on submit button - for the second time.passed
+Then click on Include Persons on the Report for the second time.............passed
+Then click on a specific personnel  - for the second time...................passed
+Then click on the positive icon to Add Extra charges - for the second time..passed
+Then input a description - Extra charge first line over the max limit fifty characters.passed
+Then input Price - Extra charge first line Alphanumeric characters..........passed
+Then input a description - Extra charge second line over the max limit fifty characters.passed
+Then click Add another item button five times - for the second time.........passed
+Then input Price - Extra charge second line Alphanumeric characters.........passed
+Then input a description - Extra charge third line over the max limit fifty characters.passed
+Then input Price - Extra charge third line Alphanumeric characters..........passed
+Then input a description - Extra charge fourth line over the max limit fifty characters.passed
+Then input Price - Extra charge fourth line Alphanumeric characters.........passed
+Then input a description - Extra charge fifth line over the max limit fifty characters.passed
+Then input Price - Extra charge fifth line Alphanumeric characters..........passed
+Then click on Save Changes button - for the second time.....................passed
+Then validate if the confirmation message for successfully saving the Extra charges will display - for the second time.passed
+And browser will close - for the second time................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Meals and Accommodation Add Extra Charges functionality for Vessel Manager" name="Delete existing description and Price - Add Extra Charge" time="37.086949">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials - for the fourth time.passed
+Then go to Personnel menu -for the fourth time..............................passed
+Then access Meals and Accommodation sub menu - for the fourth time..........passed
+Then validate if the current url is correct - for the fourth time...........passed
+Then input valid date range period and click on submit button - for the fourth time.passed
+Then click on Include Persons on the Report for the third time..............passed
+Then click on a specific personnel -for the fourth time.....................passed
+Then click on the positive icon to Add Extra charges - for the fourth time..passed
+Then delete fifth line description and price - for the fourth time..........passed
+Then delete fourth line description and price - for the fourth time.........passed
+Then delete third line description and price - for the fourth time..........passed
+Then delete second line description and price - for the fourth time.........passed
+Then delete first line description and price - for the fourth time..........passed
+Then click on Save Changes button - for the fourth time.....................passed
+Then validate if the confirmation message for successfully saving the Extra charges will display - for the fourth time.passed
+And browser will close - for the fourth time................................passed
+]]></system-out>
+</testcase>
+</testsuite>

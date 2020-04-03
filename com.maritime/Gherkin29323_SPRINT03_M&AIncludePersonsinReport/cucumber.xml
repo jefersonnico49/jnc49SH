@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="413.231723">
+<testcase classname="As a User, I have the option to &quot;Include Persons in Report&quot; from overview and report of M&amp;A so that report per Company is available too." name="Validate if the Company Names are available for Company Report" time="216.868902">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials.................passed
+Then go to Personnel menu...................................................passed
+Then access Meals and Accommodation sub menu................................passed
+Then validate if the current url is correct.................................passed
+Then input valid date range period..........................................passed
+Then under company select Symbit and click on submit button.................passed
+Then validate if Symbit display under Company...............................passed
+And browser will close......................................................passed
+Given open Vessel Manager login with valid user credentials for the second time.passed
+Then go to Personnel menu for the second time...............................passed
+Then access Meals and Accommodation sub menu for the second time............passed
+Then validate if the current url is correct for the second time.............passed
+Then input valid date range period for the second time......................passed
+Then under company select AB12 Company and click on submit button for the second time.passed
+Then validate if AB12 Company display under Company for the second time.....passed
+And browser will close for the second time..................................passed
+Given open Vessel Manager login with valid user credentials for the third time.passed
+Then go to Personnel menu for the third time................................passed
+Then access Meals and Accommodation sub menu for the third time.............passed
+Then validate if the current url is correct for the third time..............passed
+Then input valid date range period for the third time.......................passed
+Then under company select Shipadmin Company and click on submit button for the third time.passed
+Then validate if Shipadmin Company display under Company for the third time.passed
+And browser will close for the third time...................................passed
+Given open Vessel Manager login with valid user credentials for the fourth time.passed
+Then go to Personnel menu for the fourth time...............................passed
+Then access Meals and Accommodation sub menu for the fourth time............passed
+Then validate if the current url is correct for the fourth time.............passed
+Then input valid date range period and click on submit button...............passed
+Then validate if Symbit display under Company for the fourth time...........passed
+Then validate if AB12 Company display under Company for the fourth time.....passed
+Then validate if Shipadmin Company display under Company for the fourth time.passed
+And browser will close for the fourth time..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a User, I have the option to &quot;Include Persons in Report&quot; from overview and report of M&amp;A so that report per Company is available too." name="Validate if the report per Company Header is available" time="62.248655">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials for the fifth time.passed
+Then go to Personnel menu for the for the fifth time........................passed
+Then access Meals and Accommodation sub menu for the fifth time.............passed
+Then validate if the current url is correct for the fifth time..............passed
+Then input valid date range period and click on submit button for the fifth time.passed
+Then validate if the Company Header is available............................passed
+Then validate if the Meals Header is available..............................passed
+Then validate if the Charge Header is available.............................passed
+Then validate if the Extra Charges Header is available......................passed
+Then validate if the Total Header is available..............................passed
+And browser will close for the fourth time for the fifth time...............passed
+]]></system-out>
+</testcase>
+<testcase classname="As a User, I have the option to &quot;Include Persons in Report&quot; from overview and report of M&amp;A so that report per Company is available too." name="Validate if the Include Persons on the Report are available" time="63.353779">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials for the sixth time.passed
+Then go to Personnel menu for the for the sixth time........................passed
+Then access Meals and Accommodation sub menu for the sixth time.............passed
+Then validate if the current url is correct for the sixth time..............passed
+Then input valid date range period and click on submit button for the sixth time.passed
+Then click on Include Persons on the Report.................................passed
+Then validate if the Name Header is available...............................passed
+Then validate if the Position Header is available...........................passed
+Then validate if the Company Header is available for the sixth time.........passed
+Then validate if the Days Header is available...............................passed
+Then validate if the Meals Header is available for the sixth time...........passed
+Then validate if the Charge Header is available for the sixth time..........passed
+Then validate if the Extra Charges Header is available for the sixth time...passed
+Then validate if the Total Header is available for the sixth time...........passed
+And browser will close for the fourth time for the sixth time...............passed
+]]></system-out>
+</testcase>
+<testcase classname="As a User, I have the option to &quot;Include Persons in Report&quot; from overview and report of M&amp;A so that report per Company is available too." name="Validate if the Personnel Nicole, Heaven and Lian German is present with meals and Accommodation" time="70.760387">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials for the seventh time.passed
+Then go to Personnel menu for the seventh time..............................passed
+Then access Meals and Accommodation sub menu for the seventh time...........passed
+Then validate if the current url is correct for the seventh time............passed
+Then input valid date range period and click on submit button for the seventh time.passed
+Then click on Include Persons on the Report for the seventh time............passed
+Then click on Display only persons with meals and accommodation for the seventh time.passed
+Then validate if German, Nicole is present..................................passed
+Then validate if German, Nicole meals and accommodation icon is present.....passed
+Then validate if German, Nicole position is correct.........................passed
+Then validate if German, Nicole Company is correct..........................passed
+Then validate if German, Nicole Days onboard is correct.....................passed
+Then validate if German, Heaven is present..................................passed
+Then validate if German, Heaven meals and accommodation icon is present.....passed
+Then validate if German, Heaven position is correct.........................passed
+Then validate if German, Heaven Company is correct..........................passed
+Then validate if German, Heaven Days onboard is correct.....................passed
+Then validate if German, Lian is present....................................passed
+Then validate if German, Lian meals and accommodation icon is present.......passed
+Then validate if German, Lian position is correct...........................passed
+Then validate if German, Lian Company is correct............................passed
+Then validate if German, Lian Days onboard is correct.......................passed
+And Browser will close for the seventh time.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

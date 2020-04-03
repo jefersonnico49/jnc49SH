@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="205.964082">
+<testcase classname="Overview of  Meals and Accommodation table" name="Can select date period: FROM - TO - Valid date range" time="27.247355">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials.................passed
+Then go to Personnel menu...................................................passed
+Then access Meals and Accommodation sub menu................................passed
+Then validate if the current url is correct.................................passed
+Then input valid date range period and click on submit button...............passed
+And browser will close......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Overview of  Meals and Accommodation table" name="Can select date period: FROM - TO - Invalid date range" time="28.545559">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials for the second time.passed
+Then go to Personnel menu for the second time...............................passed
+Then access Meals and Accommodation sub menu for the second time............passed
+Then validate if the current url is correct for the second time.............passed
+Then input invalid date range period and click on submit button.............passed
+Then validate if the calendar date picker is highlighted....................passed
+And browser will close for the second time..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Overview of  Meals and Accommodation table" name="Can select one, multiple" time="43.600877">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials for the third time.passed
+Then go to Personnel menu for the third time................................passed
+Then access Meals and Accommodation sub menu for the third time.............passed
+Then validate if the current url is correct for the third time..............passed
+Then input valid date range period for the third time.......................passed
+Then select a company.......................................................passed
+Then select multiple company available......................................passed
+Then click on submit button.................................................passed
+And browser will close for the third time...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Overview of  Meals and Accommodation table" name="Can select All companies" time="32.925238">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials for the fourth time.passed
+Then go to Personnel menu for the fourth time...............................passed
+Then access Meals and Accommodation sub menu for the fourth time............passed
+Then validate if the current url is correct for the fourth time.............passed
+Then input valid date range period for the fourth time......................passed
+Then under company do not select any........................................passed
+Then click on submit button for the fourth time.............................passed
+And browser will close for the fourth time..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Overview of  Meals and Accommodation table" name="Home redirection to Home page" time="73.645053">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials for the fifth time.passed
+Then go to Personnel menu for the fifth time................................passed
+Then access Meals and Accommodation sub menu for the fifth time.............passed
+Then validate if the current url is correct for the fifth time..............passed
+Then click Home.............................................................passed
+Then validate if redirect to Home page validate the url if correct..........passed
+And browser will close for the fifth time...................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,1054 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate if the Company Names are available for Company Report",
+        "description": "",
+        "id": "as-a-user,-i-have-the-option-to-\"include-persons-in-report\"-from-overview-and-report-of-m\u0026a-so-that-report-per-company-is-available-too.;validate-if-the-company-names-are-available-for-company-report",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18853719603,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open Vessel Manager login with valid user credentials",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.open_Vessel_Manager_login_with_valid_user_credentials()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1070445972,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "go to Personnel menu",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.go_to_Personnel_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23070832992,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "access Meals and Accommodation sub menu",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.access_Meals_and_Accommodation_sub_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1342629117,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate if the current url is correct",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_current_url_is_correct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2894942723,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "input valid date range period",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.input_valid_date_range_period()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4555170004,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "under company select Symbit and click on submit button",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.under_company_select_Symbit_and_click_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1361147936,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "validate if Symbit display under Company",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_Symbit_display_under_Company()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2011684610,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "browser will close",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.browser_will_close()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26050061527,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "open Vessel Manager login with valid user credentials for the second time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.open_Vessel_Manager_login_with_valid_user_credentials_for_the_second_time()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1054219822,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "go to Personnel menu for the second time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.go_to_Personnel_menu_for_the_second_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14387642390,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "access Meals and Accommodation sub menu for the second time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.access_Meals_and_Accommodation_sub_menu_for_the_second_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1312397746,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "validate if the current url is correct for the second time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_current_url_is_correct_for_the_second_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2929042406,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "input valid date range period for the second time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.input_valid_date_range_period_for_the_second_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4966362098,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "under company select AB12 Company and click on submit button for the second time",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 23
+                }
+              ],
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.under_company_select_AB_Company_and_click_on_submit_button_for_the_second_time(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1350273991,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "validate if AB12 Company display under Company for the second time",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 14
+                }
+              ],
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_AB_Company_display_under_Company_for_the_second_time(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1836728475,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "browser will close for the second time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.browser_will_close_for_the_second_time()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19096501678,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "open Vessel Manager login with valid user credentials for the third time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.open_Vessel_Manager_login_with_valid_user_credentials_for_the_third_time()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1037013096,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "go to Personnel menu for the third time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.go_to_Personnel_menu_for_the_third_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13154869601,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "access Meals and Accommodation sub menu for the third time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.access_Meals_and_Accommodation_sub_menu_for_the_third_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1316198851,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "validate if the current url is correct for the third time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_current_url_is_correct_for_the_third_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2853342023,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "input valid date range period for the third time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.input_valid_date_range_period_for_the_third_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16141033159,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "under company select Shipadmin Company and click on submit button for the third time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.under_company_select_Shipadmin_Company_and_click_on_submit_button_for_the_third_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1357423858,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "validate if Shipadmin Company display under Company for the third time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_Shipadmin_Company_display_under_Company_for_the_third_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1800630635,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "browser will close for the third time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.browser_will_close_for_the_third_time()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22960769751,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "open Vessel Manager login with valid user credentials for the fourth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.open_Vessel_Manager_login_with_valid_user_credentials_for_the_fourth_time()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1051385702,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "go to Personnel menu for the fourth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.go_to_Personnel_menu_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12374251116,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "access Meals and Accommodation sub menu for the fourth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.access_Meals_and_Accommodation_sub_menu_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1312114939,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "validate if the current url is correct for the fourth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_current_url_is_correct_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7459271322,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "input valid date range period and click on submit button",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.input_valid_date_range_period_and_click_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1351233801,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "validate if Symbit display under Company for the fourth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_Symbit_display_under_Company_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1347573912,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "validate if AB12 Company display under Company for the fourth time",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 14
+                }
+              ],
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_AB_Company_display_under_Company_for_the_fourth_time(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1321161015,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "validate if Shipadmin Company display under Company for the fourth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_Shipadmin_Company_display_under_Company_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1886825872,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "browser will close for the fourth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.browser_will_close_for_the_fourth_time()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "Validate if the report per Company Header is available",
+        "description": "",
+        "id": "as-a-user,-i-have-the-option-to-\"include-persons-in-report\"-from-overview-and-report-of-m\u0026a-so-that-report-per-company-is-available-too.;validate-if-the-report-per-company-header-is-available",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15545408412,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "open Vessel Manager login with valid user credentials for the fifth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.open_Vessel_Manager_login_with_valid_user_credentials_for_the_fifth_time()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1043230338,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "go to Personnel menu for the for the fifth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.go_to_Personnel_menu_for_the_for_the_fifth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15838815363,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "access Meals and Accommodation sub menu for the fifth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.access_Meals_and_Accommodation_sub_menu_for_the_fifth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1305319242,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "validate if the current url is correct for the fifth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_current_url_is_correct_for_the_fifth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21301132251,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "input valid date range period and click on submit button for the fifth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.input_valid_date_range_period_and_click_on_submit_button_for_the_fifth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1356704944,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "validate if the Company Header is available",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_Company_Header_is_available()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1332511467,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "validate if the Meals Header is available",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_Meals_Header_is_available()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "validate if the Charge Header is available",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_Charge_Header_is_available()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1315555453,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "validate if the Extra Charges Header is available",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_Extra_Charges_Header_is_available()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1377043702,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "validate if the Total Header is available",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_Total_Header_is_available()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1832912268,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "browser will close for the fourth time for the fifth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.browser_will_close_for_the_fourth_time_for_the_fifth_time()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 57,
+        "name": "Validate if the Include Persons on the Report are available",
+        "description": "",
+        "id": "as-a-user,-i-have-the-option-to-\"include-persons-in-report\"-from-overview-and-report-of-m\u0026a-so-that-report-per-company-is-available-too.;validate-if-the-include-persons-on-the-report-are-available",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24969480914,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "open Vessel Manager login with valid user credentials for the sixth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.open_Vessel_Manager_login_with_valid_user_credentials_for_the_sixth_time()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1052519199,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "go to Personnel menu for the for the sixth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.go_to_Personnel_menu_for_the_for_the_sixth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13771316408,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "access Meals and Accommodation sub menu for the sixth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.access_Meals_and_Accommodation_sub_menu_for_the_sixth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1309282707,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "validate if the current url is correct for the sixth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_current_url_is_correct_for_the_sixth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6287697555,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "input valid date range period and click on submit button for the sixth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.input_valid_date_range_period_and_click_on_submit_button_for_the_sixth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4831723644,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "click on Include Persons on the Report",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.click_on_Include_Persons_on_the_Report()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1323751973,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "validate if the Name Header is available",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_Name_Header_is_available()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1305067019,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "validate if the Position Header is available",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_Position_Header_is_available()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1324687996,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "validate if the Company Header is available for the sixth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_Company_Header_is_available_for_the_sixth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1322191810,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "validate if the Days Header is available",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_Days_Header_is_available()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1336303886,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "validate if the Meals Header is available for the sixth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_Meals_Header_is_available_for_the_sixth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25676,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "validate if the Charge Header is available for the sixth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_Charge_Header_is_available_for_the_sixth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1372114009,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "validate if the Extra Charges Header is available for the sixth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_Extra_Charges_Header_is_available_for_the_sixth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1327921218,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "validate if the Total Header is available for the sixth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_Total_Header_is_available_for_the_sixth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1819695436,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "browser will close for the fourth time for the sixth time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.browser_will_close_for_the_fourth_time_for_the_sixth_time()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 75,
+        "name": "Validate if the Personnel Nicole, Heaven and Lian German is present with meals and Accommodation",
+        "description": "",
+        "id": "as-a-user,-i-have-the-option-to-\"include-persons-in-report\"-from-overview-and-report-of-m\u0026a-so-that-report-per-company-is-available-too.;validate-if-the-personnel-nicole,-heaven-and-lian-german-is-present-with-meals-and-accommodation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14942008147,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "open Vessel Manager login with valid user credentials for the seventh time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.open_Vessel_Manager_login_with_valid_user_credentials_for_the_seventh_time()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1052885452,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "go to Personnel menu for the seventh time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.go_to_Personnel_menu_for_the_seventh_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12701749067,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "access Meals and Accommodation sub menu for the seventh time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.access_Meals_and_Accommodation_sub_menu_for_the_seventh_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1322214843,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "validate if the current url is correct for the seventh time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_the_current_url_is_correct_for_the_seventh_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9720041338,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "input valid date range period and click on submit button for the seventh time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.input_valid_date_range_period_and_click_on_submit_button_for_the_seventh_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10208922154,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "click on Include Persons on the Report for the seventh time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.click_on_Include_Persons_on_the_Report_for_the_seventh_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2889360193,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "click on Display only persons with meals and accommodation for the seventh time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.click_on_Display_only_persons_with_meals_and_accommodation_for_the_seventh_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1381986610,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "validate if German, Nicole is present",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_German_Nicole_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45493179,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "validate if German, Nicole meals and accommodation icon is present",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_German_Nicole_meals_and_accommodation_icon_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1326156029,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "validate if German, Nicole position is correct",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_German_Nicole_position_is_correct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1328078670,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "validate if German, Nicole Company is correct",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_German_Nicole_Company_is_correct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1317133740,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "validate if German, Nicole Days onboard is correct",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_German_Nicole_Days_onboard_is_correct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1338453074,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "validate if German, Heaven is present",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_German_Heaven_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40648820,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "validate if German, Heaven meals and accommodation icon is present",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_German_Heaven_meals_and_accommodation_icon_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1316607393,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "validate if German, Heaven position is correct",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_German_Heaven_position_is_correct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1332337779,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "validate if German, Heaven Company is correct",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_German_Heaven_Company_is_correct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1329049807,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "validate if German, Heaven Days onboard is correct",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_German_Heaven_Days_onboard_is_correct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1336161539,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "validate if German, Lian is present",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_German_Lian_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37569649,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "validate if German, Lian meals and accommodation icon is present",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_German_Lian_meals_and_accommodation_icon_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1313810653,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "validate if German, Lian position is correct",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_German_Lian_position_is_correct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1317615911,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "validate if German, Lian Company is correct",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_German_Lian_Company_is_correct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1336844958,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "validate if German, Lian Days onboard is correct",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.validate_if_German_Lian_Days_onboard_is_correct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1825258331,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Browser will close for the seventh time",
+            "match": {
+              "location": "TestMA29323_sprint03_MAIncludePersonsinReport.browser_will_close_for_the_seventh_time()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As a User, I have the option to \"Include Persons in Report\" from overview and report of M\u0026A so that report per Company is available too.",
+    "description": "",
+    "id": "as-a-user,-i-have-the-option-to-\"include-persons-in-report\"-from-overview-and-report-of-m\u0026a-so-that-report-per-company-is-available-too.",
+    "keyword": "Feature",
+    "uri": "M\u0026A_IncludePersonsinReport.feature"
+  }
+]

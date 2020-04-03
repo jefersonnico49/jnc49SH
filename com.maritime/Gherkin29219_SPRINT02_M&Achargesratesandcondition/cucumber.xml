@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="12" time="442.983235">
+<testcase classname="Meals and Accommodation Charge rates and condition for Vessel Manager" name="How to charge_One Charge including bed and meals - Meals on arrival and departure day_Full charge independent of arrival and departure time" time="35.44745">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials.................passed
+Then go to Personnel menu...................................................passed
+Then access Meals and Accommodation sub menu................................passed
+Then validate if the current url is correct.................................passed
+Then input valid date range period and click on submit button...............passed
+Then access Setup Meals and Charges page....................................passed
+Then under How to charge click One Charge including bed and meals radio button.passed
+Then under Meals on day of arrival: click Full charge independent of arrival time radio button.passed
+Then under Meals on departure day: click Full charge independent of departure time radio button.passed
+Then click on save changes button...........................................passed
+Then validate if the confirmation message that the changes has been saved did display.passed
+And browser will close......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Meals and Accommodation Charge rates and condition for Vessel Manager" name="How to charge_One Charge including bed and meals - Meals on arrival and departure day_Charge percentage (actual hours/24)" time="38.431817">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials -for the second time.passed
+Then go to Personnel menu -for the second time..............................passed
+Then access Meals and Accommodation sub menu -for the second time...........passed
+Then validate if the current url is correct -for the second time............passed
+Then input valid date range period and click on submit button -for the second time.passed
+Then access Setup Meals and Charges page -for the second time...............passed
+Then under How to charge click One Charge including bed and meals radio button -for the second time.passed
+Then under Meals on day of arrival: click Charge in percentage ( actual hours/ 24 ) radio button.passed
+Then under Meals on departure day: click  Charge percentage (actual hours / 24 ) radio button.passed
+Then click on save changes button -for the second time......................passed
+Then validate if the confirmation message that the changes have been saved did display -for the second time.passed
+And browser will close -for the second time.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Meals and Accommodation Charge rates and condition for Vessel Manager" name="How to charge_One Charge including bed and meals - Meals on arrival and departure day_No charge" time="36.823186">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials -for the third time.passed
+Then go to Personnel menu -for the third time...............................passed
+Then access Meals and Accommodation sub menu -for the third time............passed
+Then validate if the current url is correct -for the third time.............passed
+Then input valid date range period and click on submit button -for the third time.passed
+Then access Setup Meals and Charges page -for the third time................passed
+Then under How to charge click One Charge including bed and meals radio button -for the third time.passed
+Then under Meals on day of arrival: click No charge radio button............passed
+Then under Meals on departure day: click No charge radio button.............passed
+Then click on save changes button -for the third time.......................passed
+Then validate if the confirmation message that the changes have been saved did display -for the third time.passed
+And browser will close -for the third time..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Meals and Accommodation Charge rates and condition for Vessel Manager" name="How to charge_One Charge including bed and meals - Meals on arrival and departure day_Charged if arriving before &amp; After" time="37.820926">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials -for the fourth time.passed
+Then go to Personnel menu -for the fourth time..............................passed
+Then access Meals and Accommodation sub menu -for the fourth time...........passed
+Then validate if the current url is correct -for the fourth time............passed
+Then input valid date range period and click on submit button -for the fourth time.passed
+Then access Setup Meals and Charges page -for the fourth time...............passed
+Then under How to charge click One Charge including bed and meals radio button -for the fourth time.passed
+Then under Meals on day of arrival: click Charged if arriving before radio button -for the fourth time.passed
+Then under Meals on departure day: click Charged if departing after radio button -for the fourth time.passed
+Then input charged if arriving before time -for the fourth time.............passed
+Then input charged if arriving after time -for the fourth time..............passed
+Then click on save changes button -for the fourth time......................passed
+Then validate if the confirmation message that the changes have been saved did display -for the fourth time.passed
+And browser will close -for the fourth time.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Meals and Accommodation Charge rates and condition for Vessel Manager" name="How to charge_Bed and meals charged separately - Meals on arrival and departure day_Full charge independent of arrival and departure time" time="37.733228">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials -for the fifth time.passed
+Then go to Personnel menu -for the fifth time...............................passed
+Then access Meals and Accommodation sub menu -for the fifth time............passed
+Then validate if the current url is correct -for the fifth time.............passed
+Then input valid date range period and click on submit button -for the fifth time.passed
+Then access Setup Meals and Charges page -for the fifth time................passed
+Then under How to charge click Bed and meals charged separately radio button -for the fifth time.passed
+Then input any amount to Accommodation and bed charges for 1 day............passed
+Then under Meals on day of arrival: click Full charge independent of arrival time radio button -for the fifth time.passed
+Then under Meals on departure day: click Full charge independent of departure time radio button -for the fifth time.passed
+Then click on save changes button -for the fifth time.......................passed
+Then validate if the confirmation message that the changes have been saved did display -for the fifth time.passed
+And browser will close -for the fifth time..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Meals and Accommodation Charge rates and condition for Vessel Manager" name="How to charge_Bed and meals charged separately - Meals on arrival and departure day_Charge percentage (actual hours/24)" time="36.075006">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials -for the sixth time.passed
+Then go to Personnel menu -for the sixth time...............................passed
+Then access Meals and Accommodation sub menu -for the sixth time............passed
+Then validate if the current url is correct -for the sixth time.............passed
+Then input valid date range period and click on submit button -for the sixth time.passed
+Then access Setup Meals and Charges page -for the sixth time................passed
+Then under How to charge click Bed and meals charged separately radio button -for the sixth time.passed
+Then under Meals on day of arrival: click Charge in percentage ( actual hours/ 24 ) radio button -for the sixth time.passed
+Then under Meals on departure day: click  Charge percentage (actual hours / 24 ) radio button -for the sixth time.passed
+Then click on save changes button -for the sixth time.......................passed
+Then validate if the confirmation message that the changes has been saved did display -for the sixth time.passed
+And browser will close -for the sixth time..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Meals and Accommodation Charge rates and condition for Vessel Manager" name="How to charge_Bed and meals charged separately - Meals on arrival and departure day_No charge" time="37.481907">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials -for the seventh time.passed
+Then go to Personnel menu -for the seventh time.............................passed
+Then access Meals and Accommodation sub menu -for the seventh time..........passed
+Then validate if the current url is correct -for the seventh time...........passed
+Then input valid date range period and click on submit button -for the seventh time.passed
+Then access Setup Meals and Charges page -for the seventh time..............passed
+Then under How to charge click Bed and meals charged separately radio button -for the seventh time.passed
+Then under Meals on day of arrival: click No charge radio button -for the seventh time.passed
+Then under Meals on departure day: click No charge radio button -for the seventh time.passed
+Then click on save changes button -for the seventh time.....................passed
+Then validate if the confirmation message that the changes have been saved did display -for the seventh time.passed
+And browser will close -for the seventh time................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Meals and Accommodation Charge rates and condition for Vessel Manager" name="How to charge_Bed and meals charged separately - Meals on arrival and departure day_Charged if arriving before &amp; After" time="38.910718">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials -for the ninth time.passed
+Then go to Personnel menu -for the ninth time...............................passed
+Then access Meals and Accommodation sub menu -for the ninth time............passed
+Then validate if the current url is correct -for the ninth time.............passed
+Then input valid date range period and click on submit button -for the ninth time.passed
+Then access Setup Meals and Charges page -for the ninth time................passed
+Then under How to charge click Bed and meals charged separately radio button -for the ninth time.passed
+Then under Meals on day of arrival: click Charged if arriving before radio button -for the ninth time.passed
+And input charged if arriving before time -for the ninth time...............passed
+Then under Meals on departure day: click Charged if departing after radio button -for the ninth time.passed
+And input charged if arriving after time -for the ninth time................passed
+Then click on save changes button -for the ninth time.......................passed
+Then validate if the confirmation message that the changes have been saved did display -for the ninth time.passed
+And browser will close -for the ninth time..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Meals and Accommodation Charge rates and condition for Vessel Manager" name="How to charge_Bed and each meal charged separately - Meals on arrival and departure day_Full charge independent of arrival and departure time" time="33.276664">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials -for the tenth time.passed
+Then go to Personnel menu -for the tenth time...............................passed
+Then access Meals and Accommodation sub menu -for the tenth time............passed
+Then validate if the current url is correct -for the tenth time.............passed
+Then input valid date range period and click on submit button -for the tenth time.passed
+Then access Setup Meals and Charges page -for the tenth time................passed
+Then under How to charge click Bed and each meal charged separately radio button -for the tenth time.passed
+Then under Meals on day of arrival: click Full charge independent of arrival time radio button -for the tenth time.passed
+Then under Meals on departure day: click Full charge independent of departure time radio button -for the tenth time.passed
+Then click on save changes button -for the tenth time.......................passed
+Then validate if the confirmation message that the changes have been saved did display -for the tenth time.passed
+And browser will close -for the tenth time..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Meals and Accommodation Charge rates and condition for Vessel Manager" name="How to charge_Bed and each meal charged separately - Meals on arrival and departure day_Charge percentage (actual hours/24)" time="35.513552">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials -for the eleventh time.passed
+Then go to Personnel menu -for the eleventh time............................passed
+Then access Meals and Accommodation sub menu -for the eleventh time.........passed
+Then validate if the current url is correct -for the eleventh time..........passed
+Then input valid date range period and click on submit button -for the eleventh time.passed
+Then access Setup Meals and Charges page -for the eleventh time.............passed
+Then under How to charge click Bed and each meal charged separately radio button -for the eleventh time.passed
+Then under Meals on day of arrival: click Charge in percentage ( actual hours/ 24 ) radio button -for the eleventh time.passed
+Then under Meals on departure day: click  Charge percentage (actual hours / 24 ) radio button -for the eleventh time.passed
+Then click on save changes button -for the eleventh time....................passed
+Then validate if the confirmation message that the changes have been saved did display -for the eleventh time.passed
+And browser will close -for the eleventh time...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Meals and Accommodation Charge rates and condition for Vessel Manager" name="How to charge_Bed and each meal charged separately - Meals on arrival and departure day_No charge" time="36.714973">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials -for the twelfth time.passed
+Then go to Personnel menu -for the twelfth time.............................passed
+Then access Meals and Accommodation sub menu -for the twelfth time..........passed
+Then validate if the current url is correct -for the twelfth time...........passed
+Then input valid date range period and click on submit button -for the twelfth time.passed
+Then access Setup Meals and Charges page -for the twelfth time..............passed
+Then under How to charge click Bed and each meal charged separately radio button -for the twelfth time.passed
+Then under Meals on day of arrival: click No charge radio button -for the twelfth time.passed
+Then under Meals on departure day: click No charge radio button -for the twelfth time.passed
+Then click on save changes button -for the twelfth time.....................passed
+Then validate if the confirmation message that the changes have been saved did display -for the twelfth time.passed
+And browser will close -for the twelfth time................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Meals and Accommodation Charge rates and condition for Vessel Manager" name="How to charge_Bed and each meal charged separately - Meals on arrival and departure day_Charged if arriving before &amp; After" time="38.753808">
+<system-out><![CDATA[Given open Vessel Manager login with valid user credentials -for the thirteenth time.passed
+Then go to Personnel menu -for the thirteenth time..........................passed
+Then access Meals and Accommodation sub menu -for the thirteenth time.......passed
+Then validate if the current url is correct -for the thirteenth time........passed
+Then input valid date range period and click on submit button -for the thirteenth time.passed
+Then access Setup Meals and Charges page -for the thirteenth time...........passed
+Then under How to charge click Bed and each meal charged separately radio button -for the thirteenth time.passed
+Then under Meals on day of arrival: click Charged if arriving before radio button -for the thirteenth time.passed
+And input charged if arriving before time -for the thirteenth time..........passed
+Then under Meals on departure day: click Charged if departing after radio button -for the thirteenth time.passed
+And input charged if arriving after time -for the thirteenth time...........passed
+Then click on save changes button -for the thirteenth time..................passed
+Then validate if the confirmation message that the changes have been saved did display -for the thirteenth time.passed
+And browser will close -for the thirteenth time.............................passed
+]]></system-out>
+</testcase>
+</testsuite>

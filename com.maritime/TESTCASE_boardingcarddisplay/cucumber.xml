@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.368825">
+<testcase classname="As a Admin, I can see the boarding card proper display" name="Validation of Boarding Card display for Vessel Manager" time="21.368825">
+<failure message="org.junit.ComparisonFailure: expected:&lt;http://stg0[3].shipadmin.com/VM/Ca...&gt; but was:&lt;http://stg0[2].shipadmin.com/VM/Ca...&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitionboardingcarddisplay.Testboardingcarddisplay.validate_the_current_url_for_boarding_card_is_correct(Testboardingcarddisplay.java:65)&#13;&#10;&#9;at ✽.Then validate the current url for boarding card is correct(boardingcarddisplay.feature:8)&#13;&#10;"><![CDATA[Given open Vessel Manager WebApp Login with valid user credentials..........passed
+Then go to Personnel menu...................................................passed
+Then click on Boarding Card sub menu........................................passed
+Then validate the current url for boarding card is correct..................failed
+Then validate Boarding Card Text in the upper left part of the web page.....skipped
+Then validate Find person by criteria text if displayed.....................skipped
+Then validate if the Name under Find person by Criteria text is displayed...skipped
+Then validate if the Card ID under Find person by Criteria text is displayed.skipped
+Then validate if the Name under Find person by Criteria text input field is displayed.skipped
+Then validate if the Card ID under Find person by Criteria text input field is displayed.skipped
+Then validate if the Name search button is displayed........................skipped
+Then validate if the Card ID search button is displayed.....................skipped
+Then validate Selected person text if displayed.............................skipped
+Then validate if the Name text under Selected person by Criteria is displayed.skipped
+Then validate if the Company text under Selected person by Criteria is displayed.skipped
+Then validate if the Position text under Selected person by Criteria is displayed.skipped
+Then validate if the Category text under Selected person by Criteria is displayed.skipped
+Then validate if the Card ID text under Selected person by Criteria is displayed.skipped
+Then validate if the PIN text under Selected person by Criteria is displayed.skipped
+Then validate if the Card ID text input field under Selected person by Criteria is displayed.skipped
+Then validate if the PIN text input field under Selected person by Criteria is displayed.skipped
+Then validate if the Take Picture text is displayed.........................skipped
+Then validate if the Print text is displayed................................skipped
+Then validate if the Save text is displayed.................................skipped
+Then validate if the Empty fields text is displayed.........................skipped
+Then validate if the Take Picture button is displayed.......................skipped
+Then validate if the Print button is displayed..............................skipped
+Then validate if the Save button is displayed...............................skipped
+Then validate if the Empty fields button is displayed.......................skipped
+Then validate if the Preview card text is displayed.........................skipped
+Then validate if the Preview card Object is displayed.......................skipped
+And browser will closed.....................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<http://stg0[3].shipadmin.com/VM/Ca...> but was:<http://stg0[2].shipadmin.com/VM/Ca...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitionboardingcarddisplay.Testboardingcarddisplay.validate_the_current_url_for_boarding_card_is_correct(Testboardingcarddisplay.java:65)
+	at ✽.Then validate the current url for boarding card is correct(boardingcarddisplay.feature:8)
+]]></failure>
+</testcase>
+</testsuite>

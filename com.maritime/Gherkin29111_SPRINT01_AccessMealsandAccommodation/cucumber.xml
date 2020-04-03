@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+<testcase classname="Open meals and accomoodation" name="Validation of Meals and Accommodation" time="0">
+<skipped><![CDATA[Given open Vessel Manager login with valid user credentials.................undefined
+Then go to Personnel menu...................................................undefined
+Then access Meals and Accommodation sub menu................................undefined
+Then validate if the current url is correct.................................undefined
+Then input valid date range period and click on submit button...............undefined
+And browser will close......................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

@@ -1,0 +1,762 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Add valid description and Price - Add Extra Charge",
+        "description": "",
+        "id": "meals-and-accommodation-add-extra-charges-functionality-for-vessel-manager;add-valid-description-and-price---add-extra-charge",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11118450061,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open Vessel Manager login with valid user credentials",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.open_Vessel_Manager_login_with_valid_user_credentials()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1071769015,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "go to Personnel menu",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.go_to_Personnel_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5314342664,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "access Meals and Accommodation sub menu",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.access_Meals_and_Accommodation_sub_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1303153440,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate if the current url is correct",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.validate_if_the_current_url_is_correct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4938462666,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "input valid date range period and click on submit button",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_valid_date_range_period_and_click_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4680154098,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on Include Persons on the Report",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.click_on_Include_Persons_on_the_Report()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1440433069,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on a specific personnel",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.click_on_a_specific_personnel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1230601323,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on the positive icon to Add Extra charges",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.click_on_the_positive_icon_to_Add_Extra_charges()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2340757072,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "input a description - Extra charge first line",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_a_description_Extra_charge_first_line()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2185026210,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "input Price - Extra charge first line",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_Price_Extra_charge_first_line()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19256,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click Add another item button five times",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.click_Add_another_item_button_five_times()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2325400868,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "input a description - Extra charge second line",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_a_description_Extra_charge_second_line()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2158502304,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "input Price - Extra charge second line",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_Price_Extra_charge_second_line()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2245946577,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "input a description - Extra charge third line",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_a_description_Extra_charge_third_line()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2201044690,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "input Price - Extra charge third line",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_Price_Extra_charge_third_line()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2196179941,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "input a description - Extra charge fourth line",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_a_description_Extra_charge_fourth_line()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2197110677,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "input Price - Extra charge fourth line",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_Price_Extra_charge_fourth_line()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2208326332,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "input a description - Extra charge fifth line",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_a_description_Extra_charge_fifth_line()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2210874624,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "input Price - Extra charge fifth line",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_Price_Extra_charge_fifth_line()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17421890463,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on Save Changes button",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.click_on_Save_Changes_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29829,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "validate if the confirmation message for successfully saving the Extra charges will display",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.validate_if_the_confirmation_message_for_successfully_saving_the_Extra_charges_will_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1821171021,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "browser will close",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.browser_will_close()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Add invalid description and Price - Add Extra Charge",
+        "description": "",
+        "id": "meals-and-accommodation-add-extra-charges-functionality-for-vessel-manager;add-invalid-description-and-price---add-extra-charge",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10440424008,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "open Vessel Manager login with valid user credentials - for the second time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.open_Vessel_Manager_login_with_valid_user_credentials_for_the_second_time()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1053795422,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "go to Personnel menu - for the second time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.go_to_Personnel_menu_for_the_second_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6087656096,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "access Meals and Accommodation sub menu - for the second time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.access_Meals_and_Accommodation_sub_menu_for_the_second_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1296968670,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "validate if the current url is correct - for the second time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.validate_if_the_current_url_is_correct_for_the_second_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5130385763,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "input valid date range period and click on submit button - for the second time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_valid_date_range_period_and_click_on_submit_button_for_the_second_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3745308655,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click on Include Persons on the Report for the second time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.click_on_Include_Persons_on_the_Report_for_the_second_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1421847797,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "click on a specific personnel  - for the second time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.click_on_a_specific_personnel_for_the_second_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1228491026,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "click on the positive icon to Add Extra charges - for the second time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.click_on_the_positive_icon_to_Add_Extra_charges_for_the_second_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3607321440,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "input a description - Extra charge first line over the max limit fifty characters",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_a_description_Extra_charge_first_line_over_the_max_limit_fifty_characters()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2191691263,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "input Price - Extra charge first line Alphanumeric characters",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_Price_Extra_charge_first_line_Alphanumeric_characters()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3534911293,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "input a description - Extra charge second line over the max limit fifty characters",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_a_description_Extra_charge_second_line_over_the_max_limit_fifty_characters()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17746,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "click Add another item button five times - for the second time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.click_Add_another_item_button_five_times_for_the_second_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2216144517,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "input Price - Extra charge second line Alphanumeric characters",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_Price_Extra_charge_second_line_Alphanumeric_characters()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3748855647,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "input a description - Extra charge third line over the max limit fifty characters",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_a_description_Extra_charge_third_line_over_the_max_limit_fifty_characters()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2228923356,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "input Price - Extra charge third line Alphanumeric characters",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_Price_Extra_charge_third_line_Alphanumeric_characters()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3492438759,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "input a description - Extra charge fourth line over the max limit fifty characters",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_a_description_Extra_charge_fourth_line_over_the_max_limit_fifty_characters()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2205460118,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "input Price - Extra charge fourth line Alphanumeric characters",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_Price_Extra_charge_fourth_line_Alphanumeric_characters()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3519185815,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "input a description - Extra charge fifth line over the max limit fifty characters",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_a_description_Extra_charge_fifth_line_over_the_max_limit_fifty_characters()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2209866106,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "input Price - Extra charge fifth line Alphanumeric characters",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_Price_Extra_charge_fifth_line_Alphanumeric_characters()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4799987993,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "click on Save Changes button - for the second time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.click_on_Save_Changes_button_for_the_second_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29829,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "validate if the confirmation message for successfully saving the Extra charges will display - for the second time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.validate_if_the_confirmation_message_for_successfully_saving_the_Extra_charges_will_display_for_the_second_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1852551747,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "browser will close - for the second time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.browser_will_close_for_the_second_time()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 55,
+        "name": "Delete existing description and Price - Add Extra Charge",
+        "description": "",
+        "id": "meals-and-accommodation-add-extra-charges-functionality-for-vessel-manager;delete-existing-description-and-price---add-extra-charge",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9956856883,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "open Vessel Manager login with valid user credentials - for the fourth time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.open_Vessel_Manager_login_with_valid_user_credentials_for_the_fourth_time()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1052902444,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "go to Personnel menu -for the fourth time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.go_to_Personnel_menu_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5307276243,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "access Meals and Accommodation sub menu - for the fourth time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.access_Meals_and_Accommodation_sub_menu_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1311846479,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "validate if the current url is correct - for the fourth time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.validate_if_the_current_url_is_correct_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5226026934,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "input valid date range period and click on submit button - for the fourth time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.input_valid_date_range_period_and_click_on_submit_button_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4310202870,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "click on Include Persons on the Report for the third time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.click_on_Include_Persons_on_the_Report_for_the_third_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1442985137,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "click on a specific personnel -for the fourth time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.click_on_a_specific_personnel_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1242476234,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "click on the positive icon to Add Extra charges - for the fourth time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.click_on_the_positive_icon_to_Add_Extra_charges_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1082186086,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "delete fifth line description and price - for the fourth time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.delete_fifth_line_description_and_price_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1087650433,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "delete fourth line description and price - for the fourth time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.delete_fourth_line_description_and_price_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1089644436,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "delete third line description and price - for the fourth time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.delete_third_line_description_and_price_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1082742262,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "delete second line description and price - for the fourth time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.delete_second_line_description_and_price_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1107576496,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "delete first line description and price - for the fourth time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.delete_first_line_description_and_price_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31717,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "click on Save Changes button - for the fourth time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.click_on_Save_Changes_button_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46820,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "validate if the confirmation message for successfully saving the Extra charges will display - for the fourth time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.validate_if_the_confirmation_message_for_successfully_saving_the_Extra_charges_will_display_for_the_fourth_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1786497038,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "browser will close - for the fourth time",
+            "match": {
+              "location": "TestMA29228_sprint02_Extrachargesvalidation.browser_will_close_for_the_fourth_time()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Meals and Accommodation Add Extra Charges functionality for Vessel Manager",
+    "description": "",
+    "id": "meals-and-accommodation-add-extra-charges-functionality-for-vessel-manager",
+    "keyword": "Feature",
+    "uri": "M\u0026A_addExtraChargestoperson_functionalityvalidation.feature"
+  }
+]
