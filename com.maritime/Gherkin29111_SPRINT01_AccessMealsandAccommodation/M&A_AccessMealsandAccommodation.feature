@@ -1,6 +1,7 @@
 Feature: Open meals and accomoodation
 
 Scenario: Validation of Meals and Accommodation 
+//test//
 
 Given open Vessel Manager login with valid user credentials
 Then go to Personnel menu
