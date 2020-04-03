@@ -10,6 +10,7 @@ import cucumber.api.junit.Cucumber;
 		glue={"stepdefinitionboolean"},
 		plugin = {"pretty", "html:Gherkin_Boolean/cucumber-html-report","json:Gherkin_Boolean/cucumber-report.json","junit:Gherkin_Boolean/cucumber.xml"}
 		)
+// test//
 
 public class testrunnerboolean {
 
