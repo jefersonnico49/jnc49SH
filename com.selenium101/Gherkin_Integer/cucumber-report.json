@@ -1,0 +1,140 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify the width and height of the Meals and Accommodation Icon logo",
+        "description": "",
+        "id": "meals-and-accommodation-icon-logo;verify-the-width-and-height-of-the-meals-and-accommodation-icon-logo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32927324900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Access Vessel Manager A",
+            "match": {
+              "location": "testInteger.access_Vessel_Manager_A()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21058837500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Go to Personnel Meals and Accommodation A",
+            "match": {
+              "location": "testInteger.go_to_Personnel_Meals_and_Accommodation_A()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35443500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify the width and height of the Meals and Accommodation Icon logo A",
+            "match": {
+              "location": "testInteger.verify_the_width_and_height_of_the_Meals_and_Accommodation_Icon_logo_A()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5148856000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close Browser A",
+            "match": {
+              "location": "testInteger.close_Browser_A()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Verify if the shipadmin hyperlink text is clickable  and will redirect the user to shipadmin website",
+        "description": "",
+        "id": "meals-and-accommodation-icon-logo;verify-if-the-shipadmin-hyperlink-text-is-clickable--and-will-redirect-the-user-to-shipadmin-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23414785400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Access Vessel Manager B",
+            "match": {
+              "location": "testInteger.access_Vessel_Manager_B()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3638235800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Go to Help About Vessel Manager B",
+            "match": {
+              "location": "testInteger.go_to_Help_About_Vessel_Manager_B()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1379178000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on the shipadmin url hyperlink B",
+            "match": {
+              "location": "testInteger.click_on_the_shipadmin_url_hyperlink_B()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5166179500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify if the user will redirect to shipadmin page B",
+            "match": {
+              "location": "testInteger.verify_if_the_user_will_redirect_to_shipadmin_page_B()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1810525400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Close Browser B",
+            "match": {
+              "location": "testInteger.close_Browser_B()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Meals and Accommodation Icon logo",
+    "description": "",
+    "id": "meals-and-accommodation-icon-logo",
+    "keyword": "Feature",
+    "uri": "Integer.feature"
+  }
+]

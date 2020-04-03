@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="63.223403">
+<testcase classname="Drop Down List Radio button" name="Verify if the radio button Drop Down List is present in Settings Config Date and Numbers Tab" time="33.16569">
+<system-out><![CDATA[Given Access Vessel Manager A...............................................passed
+Then Go to Settings A.......................................................passed
+Then Access Config Date and Numbers Tab A...................................passed
+And Verify if the radio button Drop Down List is present A..................passed
+Then Close Browser A........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Drop Down List Radio button" name="Verify if the radio button Drop Down List is been tick in Settings Config Date and Numbers Tab" time="30.057713">
+<system-out><![CDATA[Given Access Vessel Manager B...............................................passed
+Then Go to Settings B.......................................................passed
+Then Access Config Date and Numbers Tab B...................................passed
+And Verify if the radio button Drop Down List is tick B.....................passed
+Then Close Browser B........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

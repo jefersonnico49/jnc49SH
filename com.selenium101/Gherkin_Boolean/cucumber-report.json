@@ -1,0 +1,170 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify if the radio button Drop Down List is present in Settings Config Date and Numbers Tab",
+        "description": "",
+        "id": "drop-down-list-radio-button;verify-if-the-radio-button-drop-down-list-is-present-in-settings-config-date-and-numbers-tab",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21948875400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Access Vessel Manager A",
+            "match": {
+              "location": "testboolean.access_Vessel_Manager_A()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3998954100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Go to Settings A",
+            "match": {
+              "location": "testboolean.go_to_Settings_A()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1069291200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Access Config Date and Numbers Tab A",
+            "match": {
+              "location": "testboolean.access_Config_Date_and_Numbers_Tab_A()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1043920700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify if the radio button Drop Down List is present A",
+            "match": {
+              "location": "testboolean.verify_if_the_radio_button_Drop_Down_List_is_present_A()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5104648800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close Browser A",
+            "match": {
+              "location": "testboolean.close_Browser_A()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Verify if the radio button Drop Down List is been tick in Settings Config Date and Numbers Tab",
+        "description": "",
+        "id": "drop-down-list-radio-button;verify-if-the-radio-button-drop-down-list-is-been-tick-in-settings-config-date-and-numbers-tab",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22176145300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Access Vessel Manager B",
+            "match": {
+              "location": "testboolean.access_Vessel_Manager_B()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4544350600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Go to Settings B",
+            "match": {
+              "location": "testboolean.go_to_Settings_B()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1056498100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Access Config Date and Numbers Tab B",
+            "match": {
+              "location": "testboolean.access_Config_Date_and_Numbers_Tab_B()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1022609000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify if the radio button Drop Down List is tick B",
+            "match": {
+              "location": "testboolean.verify_if_the_radio_button_Drop_Down_List_is_tick_B()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1258109800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Close Browser B",
+            "match": {
+              "location": "testboolean.close_Browser_B()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Drop Down List Radio button",
+    "description": "",
+    "id": "drop-down-list-radio-button",
+    "keyword": "Feature",
+    "uri": "Boolean.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]

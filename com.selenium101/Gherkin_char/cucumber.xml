@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.203879">
+<testcase classname="Char Scenarios" name="Increment and Dicrement Characters" time="0.172305">
+<system-out><![CDATA[Given Increment Characters from C...........................................passed
+Then Decrement character form  G............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Char Scenarios" name="Input Decimal Value and its equivalent characters ASCCI table" time="0.031574">
+<system-out><![CDATA[Given Input Decimal value and display equivalent characters.................passed
+]]></system-out>
+</testcase>
+</testsuite>

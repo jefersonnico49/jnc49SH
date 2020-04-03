@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="94.579366">
+<testcase classname="Meals and Accommodation Icon logo" name="Verify the width and height of the Meals and Accommodation Icon logo" time="59.170462">
+<system-out><![CDATA[Given Access Vessel Manager A...............................................passed
+Then Go to Personnel Meals and Accommodation A..............................passed
+Then Verify the width and height of the Meals and Accommodation Icon logo A.passed
+Then Close Browser A........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Meals and Accommodation Icon logo" name="Verify if the shipadmin hyperlink text is clickable  and will redirect the user to shipadmin website" time="35.408904">
+<system-out><![CDATA[Given Access Vessel Manager B...............................................passed
+Then Go to Help About Vessel Manager B......................................passed
+Then click on the shipadmin url hyperlink B.................................passed
+Then verify if the user will redirect to shipadmin page B...................passed
+Then Close Browser B........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
